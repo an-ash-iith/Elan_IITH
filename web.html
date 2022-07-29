@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elan & nVision</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            border: 2px solid red;
+            height: 2000px;
+            color: aliceblue;
+            background-image: url('img/elanpic2.jpeg'), url('img/repelan.jpeg');
+            /* background-image: url('img/pos-elan.jpg'); */
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain;
+            background-position: top, bottom;
+
+        }
+
+
+        .b1 {
+            display: inline-block;
+            position: absolute;
+            color: darksalmon;
+            font-weight: bold;
+            left: 8px;
+            top: 18px; 
+            /* border: 2px solid red; */
+            width: 130px;
+           
+            height: 122px;
+            image-resolution: 100px 100px;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+        }
+
+        .b2 {
+            display: block;
+            width: 65%;
+            border: 2px solid red;
+            margin: 15px auto;
+            font-size: 20px;
+            font-weight: bold;
+
+            background-color: #0f0f1c;
+            cursor:pointer;
+
+        }
+
+        .b3 {
+            display: inline-block;
+            position: absolute;
+            right: 60px;
+            top: 15px;
+            /* cursor: pointer; */
+
+        }
+        .b3 input{
+            margin: 15px 5px;
+            border-radius: 10px;
+            text-align: center;
+           color: blue;
+           border: 5px solid yellow;
+           text-shadow: 2px;
+           cursor:pointer;
+
+        }
+
+        .b4 {
+
+            position: fixed;
+            right: 60px;
+            bottom: 50px;
+            border: 2px solid red;
+            text-align: center;
+            margin: 5px;
+            padding: 15px;
+            
+        }
+
+        .b42 {
+            border: 2px solid rgb(98, 61, 133);
+            font-size: 15px;
+            background-color: rgb(51, 42, 101);
+        }
+
+        .rome li {
+            display: inline-block;
+        }
+
+        .rome li a {
+
+            padding: 3px;
+            color: rgb(39, 159, 23);
+            text-decoration: none;
+
+        }
+
+        .rome li a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        .rome li a:active {
+            color: rgb(198, 14, 173);
+            text-decoration: underline;
+        }
+
+        /* .rome li a:visited{
+            color: rgb(34, 181, 42);
+            text-decoration:underline;
+        } */
+        .logo {
+            padding: 0px;
+            margin: -12px;
+            color: blanchedalmond;
+        }
+
+        a.b41 {
+            border: 2px solid blueviolet;
+            font-size: 25px;
+            background-color: rgb(87, 183, 39);
+            color: aliceblue;
+            cursor:pointer;
+        }
+
+        a.b41:hover {
+
+            background-color: rgb(87, 165, 9);
+            color: rgb(223, 99, 4);
+        }
+        .b5{
+            border: 3px solid yellow;
+            display: inline-block;
+            position:fixed;
+            left: 50px;
+            bottom: 100px;
+            border-radius: 20px;
+            padding: 5px;
+            cursor:pointer;
+           
+        }
+        .b51 input{
+         width: 300px;
+         padding: 5px;
+         margin: 5px;
+        }
+        .b5 h3{
+            text-align: center;
+        }
+        .b5 button {
+            width:74%;
+            display: block;
+            margin: 10px auto;
+        }
+        .b6{
+            border: 2px solid rgb(19, 5, 5);
+width: 560px;
+height: 180px;
+text-align: left;
+position: absolute;
+left: 450px;
+top: 300px;
+color:rgb(5, 3, 11);
+font-size: large;
+overflow:auto;
+font-size: 25px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="b1">
+        <img src="img/logo5.png" alt="" height="100px" width="100px">
+        <div class="logo">Elan & nVision</div>
+    </div>
+    <div class="b2">
+        <ul class="rome">
+            <li><a href="#">HOME</a> </li>
+            <li><a href="https://youtube.com">EVENTS</a> </li>
+            <li> <a href="#">COMPETITION</a> </li>
+            <li><a href="#">WORKSHOP</a></li>
+            <li><a href="#">CA PORTAL</a></li>
+            <li><a href="#">TEAMS & DOMAIN</a></li>
+            <li><a href="#">CRYPTEX</a></li>
+        </ul>
+
+    </div>
+
+    <div class="b3"> 
+        <input type="text" name="Search" id="Search" placeholder="search in website">
+
+    </div>
+    </div>
+
+    <div class="b4">
+        <a class="b41" href="#">APPLY NOW </a>
+        <div class="b42">Use code "ELAN22" for 25% discount</div>
+    </div>
+
+    <div class="b5">
+        <h3> Register Now for CA</h3>
+        <form action="noaction.php">
+            <div class="b51">
+                <input type="text" name="name" placeholder="Enter name">
+            </div>
+            <div class="b51">
+                <input type="text" name="contact no" placeholder="Enter contact no">
+            </div>
+            <div class="b51">
+                <input type="text" name="E-mail" placeholder="Enter E-mail">
+            </div>
+            <div class="b51">
+                <input type="text" name="Institute Name" placeholder="Enter Institute name">
+            </div>
+        </form>
+    </div>
+    <div class="b6">
+        <p>Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in South India. Elan refers to the cultural part and ηVision cites the technological part of fest. This fest boasts of several professional and semi-professional crowd pulling events and promises to be a grand event that exhibits the best of cultural performances, technical solutions, and advances from the student community.</p>
+    </div>
+</body>
+
+</html>
